@@ -1,0 +1,8 @@
+Origin: mark0wnik
+Label: mark0wnik's repo
+Suite: stable
+Version: 1.0
+Codename: mark0wnikrepo
+Architectures: iphoneos-arm
+Components: main
+Description: markownik's Cydia Repository

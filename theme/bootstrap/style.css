@@ -1,0 +1,233 @@
+@font-face {
+	/* 
+		WebSymbols font from http://www.justbenicestudio.com/studio/websymbols/
+		
+		Licensed under the OFL. 
+		http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+	*/
+
+    font-family: 'WebSymbolsRegular';
+    src: url('../../resources/font/websymbols-regular-webfont.eot');
+    src: url('../../resources/font/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../resources/font/websymbols-regular-webfont.woff') format('woff'),
+         url('../../resources/font/websymbols-regular-webfont.ttf') format('truetype'),
+         url('../../resources/font/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol {
+	font-family: WebSymbolsRegular;
+	position: relative;
+	bottom: 1px;
+	right: 4px;
+	
+	float: left;
+}
+
+html, body {
+	text-rendering: optimizeLegibility; 
+}
+
+textarea {
+	width: 480px;
+	height: 320px;
+}
+
+form.acp input[type="text"] {
+	width: 480px;
+}
+
+@media (max-width: 767px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 550px) {
+	form.acp  div.clearfix textarea, form.acp div.clearfix input {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		
+	}
+	
+	form.acp div.clearfix input {
+		height: 2em;
+	}
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.content:first-child {
+	margin-top: 0px;
+	*margin-top: 64px;
+	_margin-top: 0px;
+}
+
+@media (min-width: 980px) {
+	.container .content {
+		padding: 20px;
+		
+		background-color: #fff;
+		margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+		margin-bottom: 24px;
+		-webkit-border-radius: 0 0 6px 6px;
+		   -moz-border-radius: 0 0 6px 6px;
+				border-radius: 0 0 6px 6px;
+		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+		   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+				box-shadow: 0 1px 2px rgba(0,0,0,.15);
+	}
+
+	html, body {
+		background-color: #eee;
+	}
+
+	body {
+		padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+	}
+}
+
+@media (min-width: 480px) {
+	#StormDEVLogo {
+		float: right;
+		margin-left: 8px;
+	}
+}
+
+@media (max-width: 480px) {
+	#StormDEVLogo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+#StormDEVLogo {
+	width: 188px;
+	height: 64px;
+	background-image: url('../img/stormdev.png');
+	background-repeat: no-repeat;
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	#StormDEVLogo {
+		background-image: url('../img/stormdev-2x.png');
+		
+		/* 
+		   GOOD JOB IE! Aparently Internet Exploder is so braindead that it parses the above.
+		   Overriding it to prevent fuckups. 
+		*/
+		*background-image: url('../img/stormdev.png');
+		background-image: url('../img/stormdev.png') \9;
+		
+		background-size: 100%;
+	}
+}
+
+.page-header {
+	background-color: #f5f5f5;
+	padding: 20px 20px 10px;
+	margin: -20px -20px 20px;
+}
+
+.navbar .btn {
+	border: 0;
+}
+
+.hasPlaceholder {
+	color: #777;
+}
+
+.acpitem {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.editButton {
+	position: relative;
+	padding-right:4px;
+	bottom: 2px;
+	_bottom: 0px;
+	*bottom: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+.small-table {
+	max-width: 640px;
+}
+
+.navbar .brand:hover {
+  text-decoration: underline;
+}
+
+.draggable {
+	cursor: move;
+}
+
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+
+.blog-article > h2 > a {
+	color: black;
+}
+
+#admin-ttmode {
+  width: 494px;
+}
+
+#InteractiveText {
+  padding-right: 0;
+  padding-left: 0;
+  position: relative;
+  left: 16px;
+  float: right;
+  font-weight: bold;
+  color: #AAA;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+  cursor:initial;
+}
+
+#InteractiveText:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+  color: #000;
+}
+
+#addMenuItemButton {
+  text-decoration: none;
+  position: relative;
+  left: 16px;
+}
+
+p small {
+  color: grey;
+}
+
+.table-comments > tbody > tr:first-child > td {
+    border: none;
+}
+
+.table-comments > tbody > tr:last-child > td {
+    border-bottom: 1px solid #DDD;
+}
+
+.commentTitle {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  !position: relative;
+  !top: 20px;
+}
