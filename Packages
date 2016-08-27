@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: mark0wnik
 Installed-Size: 140
 Depends: mobilesubstrate
-Filename: ./pl.mark0wnik.maipatch_1.0.1-2_iphoneos-arm.deb
+Filename: debs/pl.mark0wnik.maipatch_1.0.1-2_iphoneos-arm.deb
 Size: 16892
 MD5sum: 53f990a86f85d8ef52b924d9a46c584a
 SHA1: 3e18af3ac77d1a2af643e5298edbeac570b6f872
@@ -20,7 +20,7 @@ Architecture: iphoneos-arm
 Maintainer: mark0wnik
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: ./pl.mark0wnik.mobilet++_0.1.0-1_iphoneos-arm.deb
+Filename: debs/pl.mark0wnik.mobilet++_0.1.0-1_iphoneos-arm.deb
 Size: 4116
 MD5sum: 267ce65b82f7f9f468da8c3006df8a24
 SHA1: 31c83b1cec4b29be58d3a564c70a1f13adcb206f
