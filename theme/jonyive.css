@@ -169,7 +169,6 @@ panel > label, fieldset.footer label, fieldset.header label {
 panel > label {
 	display: block;
 	position: relative;
-	top: 4px;
 	margin: 9px 15px;
 	color: #6d6d72;
 	text-transform: uppercase;
