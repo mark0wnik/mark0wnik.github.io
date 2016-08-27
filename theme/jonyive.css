@@ -161,6 +161,10 @@ fieldset.header {
 	margin-bottom: -10px;
 }
 
+.footer > label {
+	font-size: 12px;
+}
+
 panel > label, fieldset.footer label, fieldset.header label {
 	color: #404c64;
 	text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0;
