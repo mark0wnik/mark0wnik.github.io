@@ -14,17 +14,17 @@ Description: Automapa Patcher iOS Edition :) Full EU/PL Licence! LiveDrive works
 Author: mark0wnik
 Name: MAiPatch
 
-Package: pl.mark0wnik.mobilet++
+Package: pl.mark0wnik.mobilet
 Version: 0.1.0-1
 Architecture: iphoneos-arm
 Maintainer: mark0wnik
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: debs/pl.mark0wnik.mobilet++_0.1.0-1_iphoneos-arm.deb
-Size: 4116
-MD5sum: 267ce65b82f7f9f468da8c3006df8a24
-SHA1: 31c83b1cec4b29be58d3a564c70a1f13adcb206f
-SHA256: 96f5aa162699a002ca195c73baf9f1bf725221e05e85c6cda05646a50e84d1f1
+Filename: debs/pl.mark0wnik.mobilet_0.1.0-1_iphoneos-arm.deb
+Size: 4118
+MD5sum: 1bcfdb06288d5824240892ac72aa2603
+SHA1: 668088de53599a357274e2d8c6930d9254b43ff3
+SHA256: bc7920883e17226857e35741d083b8e44ff43a9edce349314d23cd93b85aca6a
 Section: Tweaks
 Description: Remove mobilet time limitations! No more logouts :)
 Author: mark0wnik
