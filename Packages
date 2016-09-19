@@ -1,3 +1,19 @@
+Package: pl.mark0wnik.filzacrack
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: mark0wnik
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/pl.mark0wnik.filzacrack_1.0.0-1_iphoneos-arm.deb
+Size: 2486
+MD5sum: 6bf6e22aeef83cb17af16a28bac6d31d
+SHA1: a5b42bfc28374c5a7b4e86781b4f07e301826d8a
+SHA256: eeb4dc0bcae5486b568052e97bc64f967436be16da507a9fdb3d24622a8d5e19
+Section: Tweaks
+Description: Filza FULL LICENSE patch. Tested with 3.1
+Author: mark0wnik
+Name: FilzaCrack
+
 Package: pl.mark0wnik.maipatch
 Version: 1.0.2-3
 Architecture: iphoneos-arm
