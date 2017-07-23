@@ -32,16 +32,16 @@ Depiction: https://mark0wnik.github.io/pages/pl.mark0wnik.maipatch.html
 Name: MAiPatch
 
 Package: pl.mark0wnik.mobilet
-Version: 0.1.0-2
+Version: 0.1.0-3
 Architecture: iphoneos-arm
 Maintainer: mark0wnik
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: ./debs/pl.mark0wnik.mobilet_0.1.0-2_iphoneos-arm.deb
-Size: 4138
-MD5sum: 9e0c8729b7f8cdd826d60d166d20fd91
-SHA1: 2e7d40092ee1f5a0bd9e0c9395c9dcf045a2f3d8
-SHA256: 0cd697c633e3d32cd93aaf6b3a4286954d37fc194d8067af096940b944356388
+Filename: ./debs/pl.mark0wnik.mobilet_0.1.0-3_iphoneos-arm.deb
+Size: 4430
+MD5sum: ae00e8fe44a0903eda38d4f4c2eb9cd8
+SHA1: b1dc5be205d0c4307600fbe58ac7bd0ff48ad391
+SHA256: 6f6edb8a3c9ccb035b10ae16eda959cebb490c00cf80598d98c390f04c46988a
 Section: Tweaks
 Description: Remove mobilet time limitations! No more logouts :)
 Author: mark0wnik
