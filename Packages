@@ -14,6 +14,22 @@ Description: Filza FULL LICENSE patch. Tested with 3.1
 Author: mark0wnik
 Name: FilzaCrack
 
+Package: pl.mark0wnik.gogotom
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: mark0wnik
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/pl.mark0wnik.gogotom_1.0.0-1_iphoneos-arm.deb
+Size: 2258
+MD5sum: 1d8a86a660b8735a2547fe61c8cd65d3
+SHA1: f9fba14f11baf378ee77ec3c0b2d9cbc9558c361
+SHA256: 6328fa5590dfbaf7083fd868dfa38207e1f99541f6ebd8e2068853479a36b1c7
+Section: Tweaks
+Description: Just a tomtom go infinite premium.
+Author: mark0wnik
+Name: GoGoTom
+
 Package: pl.mark0wnik.maipatch
 Version: 1.0.2-3
 Architecture: iphoneos-arm
